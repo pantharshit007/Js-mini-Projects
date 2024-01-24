@@ -1,0 +1,40 @@
+body{
+  background-color: #181818;
+}
+
+span.highlight{
+    background-color: yellow;
+    color: black;
+    transition: all 0.5s ease-in-out;
+  }
+
+  #mess{
+    color: yellow;
+  }  
+
+  h1,.quote, #message, #text, span{
+    color: white;
+  }
+  
+  
+  .missSpell{
+    color: red;
+  }
+
+  .error{
+    background-color: lightcoral;
+    color: black;
+	
+  }
+
+  .goodGoing{
+    color:yellow;
+  }
+
+  input {
+    border: none;
+    background-color: rgb(54, 52, 52);
+    resize: none;
+    outline: none;
+    font-size: 1rem;
+    }
