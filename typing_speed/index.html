@@ -4,27 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script defer src="scipt.js"></script>
+    <script defer src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
+    <div class="container">
 
-    <h1>Practice your typing..</h1>
+        <h1>Practice your typing..</h1>
 
-    <p id="quote"></p>
-	  <p id="message"></p>
+        <p id="quote"></p>
+        <p id="message"></p>
 
-      <p id="text">Enter Text:</p>
-      <input type="text" placeholder="start typing.." id="inputElement" oninput="typedWordUpdate()" disabled>
-    </div>
-    <br> <br>
+        <p id="text">Enter Text:</p>
+        <input type="text" placeholder="start typing.." id="inputElement" oninput="typedWordUpdate()" disabled>
 
-    <button type="button" onclick="startTyping()">Start</button>
+        <div class="btn">
+            <button type="button" onclick="startTyping()">Start</button>
 
-    <button type="button" onclick="restartTyping()">Re-Start</button>
+            <button type="button" onclick="restartTyping()">Re-Start</button>
 
-    <button type="button" onclick="resetTyping()">Reset</button>
+            <button type="button" onclick="resetTyping()">Reset</button>
+        </div>
+        
       
+    </div>
+    
     
 </body>
 </html>

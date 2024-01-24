@@ -37,4 +37,36 @@ span.highlight{
     resize: none;
     outline: none;
     font-size: 1rem;
+    border-radius: 3px;
+    padding: 8px 10px;
+    padding-left: 15px;
+    width: 140px;
     }
+
+  button{
+    padding: 10px 20px;
+    margin-left: 5px;
+    font-size: 1rem;
+    background-color: aliceblue;
+    border-radius: 6px;
+  }
+
+  .btn{
+    margin-top: 1rem;
+  }
+
+  .container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  span{
+    font-size: 1.3rem;
+  }
+  p{
+    width: 50%;
+    text-align: center;
+  }
