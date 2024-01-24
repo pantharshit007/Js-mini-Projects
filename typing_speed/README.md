@@ -2,6 +2,8 @@
 
 Welcome to the Typing Game, a simple web-based game designed to enhance your typing skills in an engaging way. Its a mini project to imporove you basic Web D skills.
 
+Click on the [codepen](https://codepen.io/pantharshit007/full/YzgxxNq) to open the typing game.
+
 ## Overview
 
 The Typing Game is a project focused on providing an interactive and enjoyable platform to practice typing. Whether you're a beginner looking to improve your typing speed or an experienced typist aiming for perfection, this game is tailored for all skill levels.
